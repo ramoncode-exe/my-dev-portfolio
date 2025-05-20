@@ -9,7 +9,7 @@ function Projects(){
             <div className="text-center">
                 <h1 className="text-3xl font-bold mb-5">My <span className="text-[#fb5607]">Projects</span></h1>
             </div>
-            <div className="flex flex-row items-center justify-center max-lg:flex-wrap gap-8">
+            <div className="flex flex-row items-center justify-center max-lg:flex-wrap gap-8 mt-10">
             <motion.div initial={{ y: +300, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 4, ease: "easeIn" }} className="border p-3 border-[#cccccc20] w-100 max-md:w-80">
                     <div className="flex items-center justify-center">
                         <img className="w-60 mt-2 mb-2" src={ToDoLoGo} alt="todo logo" />   
