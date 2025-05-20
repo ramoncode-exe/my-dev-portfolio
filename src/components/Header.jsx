@@ -14,7 +14,7 @@ function Header(){
                     <motion.li whileHover={{ scale: 1.1 }} className='p-2 hover:border border-[#fb560770] hover:bg-[#1c2027] rounded-lg'>Contact</motion.li>
                 </motion.ul>
             </motion.div>
-            <motion.div className='block lg:hidden'>
+            <motion.div initial={{ x:+200, opacity: 0 }} animate={{ x:0, opacity: 1 }} transition={{ duration: 1.5, ease: 'easeOut' }} className='block lg:hidden'>
                 <img className='w-8' src={Menu} alt="Logo menu" />
             </motion.div>
         </header>
