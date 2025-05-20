@@ -42,8 +42,8 @@ function Projects(){
                             <span className="mr-2 bg-[#cccccc20] p-1.5 rounded-xl max-md:text-sm">React</span>                 
                         </div>
                         <p className="w-80 text-md mb-5 max-lg:w-100 max-sm:w-70 mt-3">YourCoffe, a company that works with customers who love good coffee, quality and good service.</p>
-                        <motion.button onClick={() => window.open("https://github.com/ramoncode-exe/ToDo---HTML-CSS-and-JS")} target="_blank" whileHover={{ scale: 1.1 }} className="bg-[#fb560750] p-2 mr-5 hover:bg-transparent border border-[#fb5607]">View GitHub</motion.button>
-                        <motion.button onClick={() => window.open("https://to-do-html-css-and-js.vercel.app/")} target="_blank" whileHover={{ scale: 1.1 }} className="border border-[#fb560770] p-2 hover:bg-[#fb5607]">View Project</motion.button>
+                        <motion.button onClick={() => window.open("https://github.com/ramoncode-exe/yourcoffe")} target="_blank" whileHover={{ scale: 1.1 }} className="bg-[#fb560750] p-2 mr-5 hover:bg-transparent border border-[#fb5607]">View GitHub</motion.button>
+                        <motion.button onClick={() => window.open("https://yourcoffe.vercel.app/")} target="_blank" whileHover={{ scale: 1.1 }} className="border border-[#fb560770] p-2 hover:bg-[#fb5607]">View Project</motion.button>
                     </div>
             </motion.div>
             <motion.div initial={{ y: +300, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 4, ease: "easeIn" }} className="border p-3 border-[#cccccc20] w-100 max-md:w-85 shadow-2xl/15 shadow-[#FFF] rounded-lg">
