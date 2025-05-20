@@ -1,6 +1,7 @@
 import Header from './components/Header.jsx';
 import Home from './components/Home.jsx';
 import Datas from './components/Datas.jsx';
+import About from './components/About.jsx';
 
 
 function App(){
@@ -9,6 +10,7 @@ function App(){
       <Header />
       <Home />
       <Datas />
+      <About />
     </div>
   );
 }
