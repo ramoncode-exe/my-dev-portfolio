@@ -11,7 +11,7 @@ function Header() {
   };
 
   return (
-    <header className="text-white p-4 flex items-center bg-[#000f2470] justify-around relative">
+    <header className="text-white p-4 flex items-center bg-[#00002470] justify-around relative">
       <motion.img
         whileHover={{ rotate: 5 }}
         src={Logo}
@@ -54,7 +54,7 @@ function Header() {
           initial={{ y: -20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.3 }}
-          className="absolute top-16 left-0 w-full bg-[#000f2470] flex flex-col items-center gap-4 p-4 lg:hidden shadow-lg z-10"
+          className="absolute top-16 left-0 w-full bg-[#00002470] flex flex-col items-center gap-4 p-4 lg:hidden shadow-lg z-10"
         >
           {["home", "projects", "skills", "about"].map((section, idx) => (
             <a href={`#${section}`} key={idx} onClick={() => setIsOpen(false)}>
